@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "brokereum_user",
+  "info": {
+    "singularName": "brokereum-users",
+    "pluralName": "brokereum-user",
+    "displayName": "BrokereumUsers",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userName": {
+      "type": "string",
+      "required": false,
+      "unique": false
+    },
+    "Email": {
+      "type": "email",
+      "unique": true,
+      "required": false
+    },
+    "profilePicture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Verified": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "userType": {
+      "type": "json",
+      "required": false
+    },
+    "walletAddress": {
+      "type": "text",
+      "required": false,
+      "unique": true
+    }
+  }
+}
