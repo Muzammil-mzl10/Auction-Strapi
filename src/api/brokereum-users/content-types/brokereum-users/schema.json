@@ -12,9 +12,9 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "userName": {
+    "firstName": {
       "type": "string",
-      "required": false,
+      "required": true,
       "unique": false
     },
     "Email": {
@@ -27,10 +27,7 @@
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "Verified": {
@@ -44,8 +41,46 @@
     },
     "walletAddress": {
       "type": "text",
-      "required": false,
+      "required": true,
       "unique": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "Country": {
+      "type": "string",
+      "required": true
+    },
+    "area": {
+      "type": "json"
+    },
+    "phoneNumber": {
+      "type": "text",
+      "required": true
+    },
+    "Address": {
+      "type": "text"
+    },
+    "Company": {
+      "type": "string"
+    },
+    "Website": {
+      "type": "string"
+    },
+    "IDDocument": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "Language": {
+      "type": "json"
+    },
+    "About": {
+      "type": "text"
     }
   }
 }
