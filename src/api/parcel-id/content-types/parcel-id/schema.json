@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "parcel_ids",
+  "info": {
+    "singularName": "parcel-id",
+    "pluralName": "parcel-ids",
+    "displayName": "parcelID",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "parcelIDs": {
+      "type": "text",
+      "unique": true,
+      "required": true
+    }
+  }
+}
