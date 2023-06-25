@@ -15,7 +15,8 @@
     "@strapi/strapi": "4.10.7",
     "better-sqlite3": "8.0.1",
     "ethers": "^6.5.1",
-    "jimp": "^0.22.8"
+    "jimp": "^0.22.8",
+    "moment": "^2.29.4"
   },
   "author": {
     "name": "A Strapi developer"
