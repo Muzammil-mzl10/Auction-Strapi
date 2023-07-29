@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bidding",
+  "info": {
+    "singularName": "biddin",
+    "pluralName": "bidding",
+    "displayName": "Bids",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "listingID": {
+      "unique": false,
+      "required": true,
+      "type": "integer"
+    },
+    "userInfo": {
+      "type": "json",
+      "required": true
+    },
+    "bidAmount": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

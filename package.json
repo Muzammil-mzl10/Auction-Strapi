@@ -13,6 +13,8 @@
     "@strapi/plugin-i18n": "4.10.7",
     "@strapi/plugin-users-permissions": "4.10.7",
     "@strapi/strapi": "4.10.7",
+    "@thirdweb-dev/wallets": "^1.0.3",
+    "@xmtp/xmtp-js": "^10.1.0",
     "better-sqlite3": "8.0.1",
     "ethers": "^6.5.1",
     "jimp": "^0.22.8",
